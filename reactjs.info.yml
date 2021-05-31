@@ -1,6 +1,6 @@
 name: React.js
 description: 'React.js Javascript Library'
 type: module
-core_version_requirement: '^8.9 || ^9.q'
+core_version_requirement: ^8.9 || ^9.1
 configure: reactjs.settings
 hidden: true
