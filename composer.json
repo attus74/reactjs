@@ -1,0 +1,16 @@
+{
+    "name": "attus\/reactjs",
+    "description": "React.js Javascript Library",
+    "type": "attus-module",
+    "require": {
+        "drupal\/core": "^8.9 || ^9",
+        "attus\/installer": "^1"
+    },
+    "authors": [
+        {
+            "name": "Attila N\u00e9meth",
+            "role": "developer"
+        }
+    ],
+    "version": "1.1.0"
+}

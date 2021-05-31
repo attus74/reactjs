@@ -1,0 +1,10 @@
+## Routing
+---
+
+reactjs.settings:
+  path: admin/config/development/reactjs
+  defaults:
+    _form: Drupal\reactjs\Form\SettingsForm
+    _title: React.js
+  requirements:
+    _permission: administer reactjs

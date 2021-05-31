@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * React.js
+ * 
+ * @author Attila Németh
+ * 15.01.2019
+ * 21.01.2021
+ */
+
+/**
+ * Implements hook_library_info_build()
+ * 
+ * Die React.js-Library wird aufgebaut, abhängig von den Einstellungen
+ */
+function reactjs_library_info_build()
+{
+  $config = \Drupal::config('reactjs.settings')->get('dev');
+  $libraries = [
+    'reactjs' => [
+      'js' => [],
+    ],
+  ];
+  if ($config) {
+    $dir = 'js/dev';
+    $name = 'development';
+  }
+  else {
+    $dir = 'js/prod';
+    $name = 'production.min';
+  }
+  $libraries['reactjs']['js'][$dir . '/react.' . $name . '.js'] = [];
+  $libraries['reactjs']['js'][$dir . '/react-dom.' . $name . '.js'] = [];
+  return $libraries;
+}
+
+/**
+ * Implements hook_locale_translation_projects_alter()
+ */
+function reactjs_locale_translation_projects_alter(&$projects)
+{
+  $projects['permissions']['info']['interface translation project'] = 'reactjs';
+  $projects['permissions']['info']['interface translation server pattern'] =
+      drupal_get_path('module', 'reactjs') . '/translations/permissions.%language.po';
+}

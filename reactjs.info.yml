@@ -1,0 +1,7 @@
+name: React.js
+description: 'React.js Javascript Library'
+type: module
+core_version_requirement: '^8.9 || ^9'
+configure: reactjs.settings
+hidden: true
+version: 1.1.0

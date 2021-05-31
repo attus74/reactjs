@@ -1,0 +1,8 @@
+## Menü
+---
+
+reactjs.settings:
+  route_name: reactjs.settings
+  title: React.js
+  description: React.js Settings
+  parent: system.admin_config_development

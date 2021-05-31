@@ -1,0 +1,7 @@
+## Permissions
+---
+
+administer reactjs:
+  title: Administer React.js
+  description: React.js Settings
+  restrict access: TRUE
