@@ -3,12 +3,17 @@
     "description": "React.js Javascript Library",
     "type": "drupal-module",
     "require": {
-        "drupal\/core": "^8.9 || ^9.1"
+        "drupal/core": "^8.9 || ^9.1"
     },
     "authors": [
         {
-            "name": "Attila Nömeth",
-            "role": "developer"
+            "name": "Attila Németh",
+            "role": "developer",
         }
-    ]
+    ],
+    "homepage": "https://github.com/attus74/reactjs",
+    "support": {
+        "issues": "https://github.com/attus74/reactjs/issues"
+    },
+    "license": "GPL-3.0-or-later"
 }
