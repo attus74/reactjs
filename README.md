@@ -1,5 +1,10 @@
 # React.js
 
+[![GitHub release](https://img.shields.io/github/release/attus74/reactjs.svg)](https://GitHub.com/attus74/reactjs/releases/)
+[![GitHub release](https://img.shields.io/github/license/attus74/reactjs.svg)](https://GitHub.com/attus74/reactjs/license/)
+[![GitHub release](https://img.shields.io/github/issues/attus74/reactjs.svg)](https://GitHub.com/attus74/reactjs/issues/)
+[![GitHub release](https://img.shields.io/github/downloads/attus74/reactjs/total.svg)]
+
 Drupal Module for progressively decoupled React Components in Drupal. 
 
 How to use:
