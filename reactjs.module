@@ -41,5 +41,5 @@ function reactjs_locale_translation_projects_alter(&$projects)
 {
   $projects['permissions']['info']['interface translation project'] = 'reactjs';
   $projects['permissions']['info']['interface translation server pattern'] =
-      drupal_get_path('module', 'reactjs') . '/translations/permissions.%language.po';
+      \Drupal::service('extension.list.module')->getPath('reactjs') . '/translations/permissions.%language.po';
 }
